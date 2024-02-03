@@ -1,0 +1,18 @@
+.bio-data{
+    text-align: center;
+    
+}
+.bio-data input{
+    width: 20%;
+    padding: 20px;
+    margin-block: 20px;
+}
+.bio-data button{
+    width: 20%;
+    padding: 20px;
+}
+.address-input button{
+width: 70px;
+margin-left: 20px;
+}
+
