@@ -11,7 +11,7 @@
   <div>
     <input formControlName="dob" name="dob" type="date">
   </div>
-  <div>
+
     <div formArrayName="address"> 
       <div class="address-input" *ngFor="let x of getAddress().controls; index as i">
         <input formControlName="address" [formControlName]="i" name="address" type="text" placeholder="Enter a address">
@@ -20,16 +20,7 @@
       </div>
      
     </div>
-  
-  </div>
-  <!-- <div formArrayName="Address">
-    <div class="d-flex" *ngFor="let x of getAddressFromArray().controls; index as i">
-        <input type="Address" [formControlName]="i" name="Address" placeholder="Enter your address1">
-        <button type="button" (click)="addControlToAddress()">Add</button>
-        <button type="button" (click)="removeAddressAtIndex(i)">Remove</button>
-    </div>
-</div> -->
-
+ 
   <div>
     <button>submit</button>
   </div>

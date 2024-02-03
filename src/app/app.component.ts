@@ -19,7 +19,7 @@ export class AppComponent {
     email: new FormControl('',[Validators.required,Validators.email]),
     dob: new FormControl(''),
     address:new FormArray([
-      new FormControl('Addr1'),
+      new FormControl('Address 1'),
      
     ])
   });
